@@ -1,0 +1,18 @@
+ <div class="container">
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <h1>Stupid Coaching Answer</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <p class="show_question"><%= @question%></br> - You</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-4 col-xs-offset-4">
+      <p class="show_answer"><%= @coach_answer%></br> - With love from your Stupid Coach</p>
+      <%= link_to("Ask another question!", ask_path) %>
+    </div>
+  </div>
+</div>
